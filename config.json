@@ -5,7 +5,7 @@
     "description": "Master version of HADaemon with HADashboard (https://github.com/home-assistant/appdaemon/tree/master)",
     "url": "https://github.com/wroadd/hassdash",
     "startup": "after",
-    "image": "wroadd/{arch}-hassdash",
+    "image": "wroadd/hassdash",
     "boot": "auto",
     "map": ["config:rw"],
     "options": {
