@@ -5,7 +5,7 @@
     "description": "Master version of HADaemon with HADashboard (https://github.com/home-assistant/appdaemon/tree/master)",
     "url": "https://github.com/wroadd/hassdash",
     "startup": "after",
-    "image": "wroadd/hassdash",
+    "image": "wroadd/{arch}-hassdash",
     "boot": "auto",
     "map": ["config:rw"],
     "options": {
@@ -15,6 +15,6 @@
         "domain": "str"
     }, 
     "ports": {
-        "80/tcp": 3031
+        "80/tcp": 3030
     }
 }
