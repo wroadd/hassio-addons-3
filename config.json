@@ -1,6 +1,6 @@
 {
     "name": "HassDash",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "slug": "hassdash",
     "description": "Master version of HADaemon with HADashboard (https://github.com/home-assistant/appdaemon/tree/master)",
     "url": "https://github.com/wroadd/hassdash",
