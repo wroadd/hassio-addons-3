@@ -1,6 +1,6 @@
-#FROM %%BASE_IMAGE%%
+FROM %%BASE_IMAGE%%
 
-#ENV LANG C.UTF-8
+ENV LANG C.UTF-8
 
 RUN apk add --no-cache jq git python3 \ 
 	&& python3 -m ensurepip \ 
