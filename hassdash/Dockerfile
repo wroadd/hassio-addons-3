@@ -1,5 +1,5 @@
 #ENV BASE_IMAGE="homeassistant\/$ARCH-base:latest"
-#FROM %%BASE_IMAGE%%
+FROM %%BASE_IMAGE%%
 LABEL io.hass.version="0.54" io.hass.type="addon" io.hass.arch="armhf|aarch64|i386|amd64"
 ENV LANG C.UTF-8
 
