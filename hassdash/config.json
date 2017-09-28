@@ -3,7 +3,7 @@
     "version": "0.0.3",
     "slug": "hassdash",
     "description": "Master version of HADaemon with HADashboard (https://github.com/home-assistant/appdaemon/tree/master)",
-    "url": "https://github.com/wroaddhassio-addons/hassdash",
+    "url": "https://github.com/wroadd/hassio-addons/hassdash",
     "image": "wroadd/{arch}-hassdash",
     "startup": "after",
     "boot": "auto",
