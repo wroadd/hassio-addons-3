@@ -1,5 +1,5 @@
-ENV BASE_IMAGE="homeassistant\/$ARCH-base:latest"
-FROM %%BASE_IMAGE%%
+#ENV BASE_IMAGE="homeassistant\/$ARCH-base:latest"
+#FROM %%BASE_IMAGE%%
 ENV LANG C.UTF-8
 
 RUN apk add --no-cache jq git python3 \ 
