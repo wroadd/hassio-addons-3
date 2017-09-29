@@ -2,7 +2,7 @@ FROM %%BASE_IMAGE%%
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache jq git python3 python3-dev gcc ruby \ 
+RUN apk add --no-cache jq git python3 python3-dev gcc ruby linux-headers musl-dev \ 
 	&& python3 -m ensurepip \ 
 	&& rm -r /usr/lib/python*/ensurepip \
 	&& pip3 install --upgrade pip setuptools \ 
